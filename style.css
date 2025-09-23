@@ -1,0 +1,51 @@
+body {
+  font-family: "Edu AU VIC WA NT Guides", serif;
+  font-weight: 400;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: normal;
+  box-sizing: border-box;
+  background-color: #fffcf5;
+  overflow-x: hidden;
+}
+.container {
+  width: 100%;
+  text-align: center;
+  margin: 1% auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
+  row-gap: 1em;
+  gap: 20px;
+  padding: 20px;
+}
+.card {
+  max-width: 100%;
+  height: 15em;
+  box-sizing: border-box;
+}
+.note {
+  word-wrap: break-word;
+  overflow: hidden;
+  border-radius: 10px;
+}
+#add-note {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  background-color: #1b1a19;
+  border-radius: 50%;
+  color: #fffcf5;
+  margin: 80px auto 0 auto;
+}
+/*Hides elements like delete button*/
+.hide {
+  display: none;
+}
+.fa-trash-can {
+  height: 40px;
+  width: 40px;
+  background-color: #fffcf5;
+  color: #1b1a19;
+}
